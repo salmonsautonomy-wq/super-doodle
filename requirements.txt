@@ -1,0 +1,11 @@
+numpy
+scipy
+matplotlib
+qiskit
+qiskit-aer
+cirq
+pennylane
+qutip[full]
+pytest
+pytest-cov
+ruff
