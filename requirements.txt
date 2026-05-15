@@ -1,11 +1,7 @@
 numpy
 scipy
 matplotlib
-qiskit
-qiskit-aer
-cirq
-pennylane
-qutip[full]
+qutip
 pytest
 pytest-cov
 ruff
