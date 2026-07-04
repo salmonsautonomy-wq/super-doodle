@@ -18,4 +18,4 @@ def test_harmonic_oscillator():
     expect = result.expect[0]
     assert len(expect) == len(tlist)
     assert abs(expect[0] - 4.0) < 0.5, f'Initial expectation should be near 4, got {expect[0]}'
-    print('✅ QuTiP dynamics test passed')}
+    print('✅ QuTiP dynamics test passed')

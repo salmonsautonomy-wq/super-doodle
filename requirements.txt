@@ -5,3 +5,5 @@ qutip
 pytest
 pytest-cov
 ruff
+numpy
+qutip

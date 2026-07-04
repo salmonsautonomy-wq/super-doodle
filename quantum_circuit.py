@@ -10,4 +10,4 @@ class QuantumCircuit:
 
     def run(self):
         # Placeholder for running the circuit
-d        return "Circuit executed"
+        return "Circuit executed"

@@ -44,7 +44,7 @@ class QuantumSimulator:
         if c_ops is None:
             c_ops = []
 
-        result = qt.mesolve(H, self.current_state, tlist, c_ops, e_ops)
+        result = qt.mesolve(H, self.current_state, tlist, c_ops=c_ops, e_ops=e_ops)
         self.current_state = result.states[-1]
         self.history.extend(result.states)
         return result
